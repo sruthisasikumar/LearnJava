@@ -46,6 +46,8 @@ Advanced components:
 5. Package : It is a physical separation of code to confine similar set of classes into single entity. The package name goes along with the Class name whenever we execute a program.
 
 ## HelloWorld.java
+> package com.chap1;
+>
 > public class HelloWorld {
 >
 >	public static void main(String[] args) {
@@ -55,6 +57,31 @@ Advanced components:
 > }
 >
 > }
+
+Coding conventions:
+1. Always have a package name in a java file.
+2. The class having the main function/method should ideally be public.
+3. The class name should be Starting with upper case followed by camel case. Eg. if class name is "Jurrasic" if class name is "JurrasicWorld". Here HelloWorld.
+4. The function/method name should be in camel case i.e. starts with lowercase and every appended word starts with Uppercase. Eg. if function name is "main", if function name is "mainFunction"
+5. The variable/attribute name should be in camel case i.e. starts with lowercase and every appended word starts with Uppercase. Eg. if function name is "test", if function name is "testVariable"
+6. The code must be indented properly. In eclipse this can be done by using the shortcut. Ctrl + I after selecting all the contents of the java file. The indentation is automatic.
+
+Description of the program:
+- package: keyword to indicate that the name following is the location of the class being written below. You can treat them as folders/directories. i.e. com is a directory within the java project. within com is chap1 within which we have the class HelloWorld.
+- public: public is an access specifier/access modifier, which indicates the level of accessibility of the entity to which it is associated. Here it is for both the class HelloWorld and the method/function named main.
+The other access specifiers are private, protected and default.
+- class: keyword to indicate the entity following is the name of the class we intent to create. Here HelloWorld.
+- static: This keyword is used to indicate the entity following can be accessed from external context without creating an object of the class by directly using the class name. here, we can access the main function using HelloWorld.main(args) without creating an object of HelloWorld.
+- void: void is a returntype of the following method/function. This means that the function main does not return any values.
+- String[] args, String args[], String... args: Number of string arguments to be passed to the main function. Assume that you want a set of dynamic values to passed to the main function which you would decide at the run time, we can make use of this notation.
+Points to remember:
+We can only pass string arguments to main function. The numbers passed would be identified as strings unless we explicitly convert them to numbers in code.
+The number of arguments once specified in the code cannot be changed during runtime. Only the values can be changed.
+
+- System: Sytem is class which contains the basic functionalities default to the System. For eg. getting the current time.System.currentTimeMillis() will give the current time in a particular format(Long format).
+- out: It is a function with System class that returns a stream object. In simple language it provides the medium to which we can write our message ("Hello World"). The stream is like a pipe through which if i pour water at one end it reaches the other end. Here the other end is the systems default output i.e. STD OUT or the console.
+- println: This method mentions what needs to be sent through the stream. Once it prints the message it moves the offset of the next message to the next line. (adding a new line)
+- print: On the other hand print function only prints the message without moving to next line.
 
 
 
