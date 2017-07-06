@@ -29,10 +29,12 @@ b) _Converting the java code to byte code._
 
 c) _Packaging the byte code into a file with the name of the class mentioned in the Java file, with a ".class" extension._
 
-eg. Dog.java becomes Dog.class
-Assume a situation when we have more than one classes defined in the same java file (say Combined.java has 2 classes
-named One and Two). In this case you would have 1 java filed i.e. Combined.java while there would be 2 class files on
-compilation One.class and Two.class.
+_eg. Dog.java becomes Dog.class_
+
+_Assume a situation when we have more than one classes defined in the same java file (say Combined.java has 2 classes_
+_named One and Two). In this case you would have 1 java filed i.e. Combined.java while there would be 2 class files on_
+_compilation One.class and Two.class._
+
 ------------
 
 Hence the java program works in 2 steps:
