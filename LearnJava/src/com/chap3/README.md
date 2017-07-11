@@ -33,11 +33,11 @@ The way java solves such scenarios is by using decimal data types.
 1. Float
 2. Double
 
-```
+```ruby
 float f = 22;
 System.out.println(f); // Result is 22.0
 ```
-```
+```ruby
 double d = 22;
 System.out.println(d); // Result is 22.0
 ```
@@ -57,7 +57,7 @@ error "Incompatible datatypes".
 The default datatype for whole numbers is integer and for decimal (floating point numbers) is **double**.
  
 Now lets take a simple scenario (Scenario 1)
-```
+```ruby
 int a = 11;
 double d = a/10;
 System.out.println(d);
@@ -69,7 +69,7 @@ to a double hence resultant value 1 becomes 1.0.
 
 ###### How do we solve this problem?
 The mathematical calculation must occur in double scope.
-```
+```ruby
 double a = 11;
 double d = a/10;
 System.out.println(d);
@@ -82,11 +82,11 @@ This is of 2 types:
 1. Implicit type casting: The process as a result of which the compiler understands the type casting implicitly is
 called implicit type casting. Here there is hardly any change in syntax to the literal condition.
 
-````
+```ruby
 int i = 2;
 float a = i;
 System.out.println(a);
-````
+```
 Here i as an integer is converted to a which is float implicitly.
 
 ###### What is the reverse?
@@ -112,14 +112,14 @@ Implicit typecasting can occur from narrower to wider but not otherwise.
 
 2. Explicit typecasting: This is process of explicitly converting to target datatype before actually assigning it.
 Eg:
-```$xslt
+```ruby
 float f = 2.2f;
 int i = (int)f; 
 System.out.println(i);
 ```
 This time we do not have any compile time or run time errors and the result is 2.
 Now lets solve Scenario 1 using explicit typecasting
-```
+```ruby
 int a = 11;
 double d = (double)a/10;
 System.out.println(d);
@@ -131,7 +131,7 @@ As discussed the other datatypes are as follows:
 2. char which can be used for positive number between 0 to 255
 Note: byte and char are interconvertible
 Eg:
-```$xslt
+```ruby
 byte a = 65;
 System.out.println(a); // prints 65
 char b = 'B';
@@ -289,12 +289,12 @@ The following table gives such a list of byte to char transformations:
 We did see but we haven't yet discussed about "**String**". This is because String is not a primitive datatype but it is 
 a class and can be used as a Referential datatype. 
 When you assign 
-``` 
+``` ruby
 String a = "test";
 ```
 It actually creates an object of String class and assigns it to a reference called "a".
 The above statement is similar to the following:
-```$xslt
+```ruby
 String a = new String("test");
 ```
 "new" is the keyword we use to create objects.
@@ -317,7 +317,7 @@ have the signature public static void where public is the access specifier, stat
  
 Hence the minimum requirement of a java program is return type.
 Here is how a function looks like:
-```$xslt
+```ruby
 [access_specifier] [access_modifier] <return_type> <methodName> () {
     <method definition>;
     [return statement];
@@ -334,7 +334,7 @@ When we call a method from the main method, we should call by creating the objec
 present (using a dot operator)
 
 Eg:
-```$xslt
+```ruby
 Class Sample {
 public static void main(String args[]) {    //1
  Sample sampleObj = new Sample();           //2
@@ -360,7 +360,7 @@ Eg. getMethod() above.
 
 2. Parameterized methods - Methods or functions which carry an argument or parameter.
 Eg.
-```$xslt
+```ruby
 Class Sample {
 public static void main(String args[]) {    //1
  Sample sampleObj = new Sample();           //2
