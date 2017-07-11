@@ -70,7 +70,7 @@ a Dog Class which might have a number of features of its parent class (say Anima
 itself which helps us differentiate between a Dog, Cat or Cow.
 
 ## Datatypes in Java
-####Primitive Data Types 
+##### Primitive Data Types 
 1. byte
 2. short
 3. **int**
