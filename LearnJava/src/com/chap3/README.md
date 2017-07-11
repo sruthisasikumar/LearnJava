@@ -301,6 +301,7 @@ String a = new String("test");
 We will discuss more about String and Object creation in the future chapters.
 
 ###Methods or functions(Behaviours)
+
 The conventional programming languages were more sequential in execution i.e. line 1 of code is followed by 2, 3 and so on.
 The object oriented programming with java is **modularized**. This is brought by the **normalization** of the code.
 
