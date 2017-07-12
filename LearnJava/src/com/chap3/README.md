@@ -288,9 +288,9 @@ The following table gives such a list of byte to char transformations:
 | The default value is 0  | Default value is 0L |
 | Example: int a = 100000, int b = -200000  | Example: long a = 100000L, long b = -200000L  |
 
-#### Referential datatypes
+#### Reference datatypes
 We did see but we haven't yet discussed about "**String**". This is because String is not a primitive datatype but it is 
-a class and can be used as a Referential datatype. 
+a class and can be used as a Reference datatype. 
 When you assign 
 ``` ruby
 String a = "test";
@@ -303,6 +303,14 @@ String a = new String("test");
 "new" is the keyword we use to create objects.
 We will discuss more about String and Object creation in the future chapters.
 
+The default value of a Reference datatype is **null**. But as a coding standard the initialization of reference variable
+is done by the programmer.
+
+```ruby
+ String name = null;
+ name = "myname";
+ name = new String("hello");
+```
 
 ### Methods or functions(Behaviours)
 
