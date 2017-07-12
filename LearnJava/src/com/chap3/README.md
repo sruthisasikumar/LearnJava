@@ -288,6 +288,20 @@ The following table gives such a list of byte to char transformations:
 | The default value is 0  | Default value is 0L |
 | Example: int a = 100000, int b = -200000  | Example: long a = 100000L, long b = -200000L  |
 
+4. short: The datatype is rarely used an is the immediate narrower version of integer. Uses lesser memory.
+
+- Short data type is a 16-bit signed two's complement integer
+
+- Minimum value is -32,768 (-2^15)
+
+- Maximum value is 32,767 (inclusive) (2^15 -1)
+
+- Short data type can also be used to save memory as byte data type. A short is 2 times smaller than an integer
+
+- Default value is 0.
+
+- Example: short s = 10000, short r = -20000
+
 #### Reference datatypes
 We did see but we haven't yet discussed about "**String**". This is because String is not a primitive datatype but it is 
 a class and can be used as a Reference datatype. 
