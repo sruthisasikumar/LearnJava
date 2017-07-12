@@ -43,12 +43,14 @@ System.out.println(d); // Result is 22.0
 ```
 Both above datatypes convert the simple whole numbers to decimal numbers automatically.
 ######Why do we need 2 datatypes for decimal?
+
 | float  | double |
 | ------------- | ------------- |
 | single-precision 32-bit IEEE 754 floating point  | double-precision 64-bit IEEE 754 floating point  |
 | mainly used to save memory in large arrays of floating point numbers  | generally used as the default data type for decimal values, generally the default choice  |
 | Default value is 0.0f  | Default value is 0.0d  |
 | Example: float f1 = 234.5f  | Example: double d1 = 123.4  |
+
 
 You can observe that when we need to assign value 123.4 to a double variable we just need to write _double d1 = 123.4_ 
 while if I need to assign it to a float variable we must give so _float f1 = 123.4f_, otherwise it gives a compilation
