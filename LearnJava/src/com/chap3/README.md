@@ -43,7 +43,7 @@ System.out.println(d); // Result is 22.0
 ```
 Both above datatypes convert the simple whole numbers to decimal numbers automatically.
 
-######Why do we need 2 datatypes for decimal?
+###### Why do we need 2 datatypes for decimal?
 
 | float  | double |
 | ------------- | ------------- |
