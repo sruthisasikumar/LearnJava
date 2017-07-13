@@ -63,8 +63,7 @@ Here, the method does not return anything, hence the return type is "void".
 Methods can be built-in methods which are part of the compiler package.Ex: In the above example 'Sytem.out.println()', is an example of a built-in method.Another example is 'System.exit(0)'. User-defined methods are the methods created by the user to carry out some operations. Ex: 'sampleMethod()' created in the above example.
 
 ###### Call-by-Value and Call-by-Reference:
-Calling a method by passing a value is called call-by-value. 
-Here, value of x and y are passed to changeData method of class Data. Even though the values are changed in the method, since only the copies of the original values are passed to the method, the values of x and y are not affected.
+Call-by value, when primitive data types are passed.
 In call-by-reference method, an object is passed as an argument to a method. Here a copy of the reference to the value of the object is being passed, as such the values in the main method is affected.
 Ex: 
 
@@ -118,6 +117,9 @@ class ReferenceClass {
 	
 }
 ```
+
+
+In Java there is only call-by value.
 
 
 
