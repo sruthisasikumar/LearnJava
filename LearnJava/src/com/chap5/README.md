@@ -34,5 +34,18 @@ value,ie, no mathematical operations can be done on it.
 
 
 #### Operations of String:
- 
-	
+
+See StringExample.java
+
+#### java.lang package
+It is interesting to note that we can only use a class by importing the same in our code.
+You might have noted that we had to import Scanner class using the following statement:
+
+```ruby
+import java.util.Scanner;
+```
+import is the command used to explicitly call external classes to be used in our java program.
+Each class/java file using the external class needs to import the class within the project.
+
+But we can still use classes like System, String etc. without importing the class.
+This is because these classes are part of java.lang package which is implicitly imported on compile.
