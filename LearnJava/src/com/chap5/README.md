@@ -15,7 +15,7 @@ execution. Java provides built-in methods for the same. This can be done via:
 
 1. Scanner class:  
 2. BufferedReader and InputStreamReader classes:
-  This will be handled later once we complete exception handling.
+  (This will be handled later once we complete exception handling.)
 
 
 #### String:

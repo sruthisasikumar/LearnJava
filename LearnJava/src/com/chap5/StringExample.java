@@ -29,7 +29,7 @@ public class StringExample {
         // Character array is pronounced as String in object oriented programming.
         System.out.println("Get the last 4 characters of string : "+example.substring(8)); // edia
         System.out.println("Get the last 4 characters of string (dynamic): "+example.substring(example.length()-4)); // edia
-        System.out.println("Get the 4 the character of the string: "+example.charAt(3)); // y
+        System.out.println("Get the 4th character of the string: "+example.charAt(3)); // y
         System.out.println("Get the first occurance of 'l' in the text: "+example.indexOf('l')); // 5
         System.out.println("Is example and ex2 the same : "+example.equals(ex2)); // true
         System.out.println("Is example and ex3 the same : "+example.equals(ex3)); // false
