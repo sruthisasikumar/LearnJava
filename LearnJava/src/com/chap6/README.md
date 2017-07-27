@@ -1,9 +1,9 @@
-##Recap:
+## Recap:
 In Java, user inputs can be taken using Scanner class and BufferedReader
 and InputStreamReader classes.
 We have seen the various String operations in Java and the import keyword.
 
-#####---------------------- End of Recap ------------------------
+##### ---------------------- End of Recap ------------------------
 
 #### Getter and Setter Methods:
 
@@ -41,7 +41,7 @@ Ex:
 Integer x=5;
 ```
  
-####Boxing and Unboxing:
+#### Boxing and Unboxing:
 
 When value of a primitive datatype is passed to a wrapper class,ie. conversion
 to an object, its called boxing. This is done by the compiler. Unboxing is
